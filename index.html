@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="header">
+        <div class="title">
+          <img src="images/logo-bonus.svg" alt="title image" />
+        </div>
+        <div class="score-board">
+          <div class="score-head">SCORE</div>
+          <div id="score-num">0</div>
+        </div>
+      </div>
+
+      <div id="choices">
+        <button class="choice" id="scissors">
+          <img src="images/icon-scissors.svg" alt="scissors-img" />
+        </button>
+        <button class="choice" id="spock">
+          <img src="images/icon-spock.svg" alt="spock-img" />
+        </button>
+        <button class="choice" id="paper">
+          <img src="images/icon-paper.svg" alt="paper-img" />
+        </button>
+        <button class="choice" id="lizard">
+          <img src="images/icon-lizard.svg" alt="lizard-img" />
+        </button>
+        <button class="choice" id="rock">
+          <img src="images/icon-rock.svg" alt="rock-img" />
+        </button>
+        <div class="pentagon">
+          <img
+            src="images/bg-pentagon.svg"
+            alt="pentagon-img"
+            width="480px"
+            height="420px"
+          />
+        </div>
+      </div>
+
+      <div id="popup">
+        <div id="rules-popup">
+          <div class="rules-header">
+            <h3 class="rules-head">RULES</h3>
+            
+            <div id="close-con">
+              <img id="close-btn" src="images/icon-close.svg" alt="close-img" />
+            </div>
+            
+          </div>
+
+          <img
+            class="img-rules"
+            src="images/image-rules-bonus.svg"
+            alt="rules-img"
+          />
+        </div>
+      </div>
+
+      <div id="pick-con">
+        <div class="msg-con">
+          <p id="msg"></p>
+          <button id="msg-btn">PLAY AGAIN</button>
+        </div>
+      </div>
+
+      <div id="pop-btn">
+        <button id="btn-rules">RULES</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
