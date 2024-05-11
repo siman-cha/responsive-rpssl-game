@@ -29,7 +29,7 @@ body {
     rgba(31, 55, 86, 1) 0%,
     rgba(20, 21, 57, 1) 100%
   );
-  overflow: hidden;
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -48,22 +48,23 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 22px;
-  margin: 17px auto;
+  padding: 15px;
+  margin: 0px auto;
 }
 
 .title {
-  margin: 12px 22px;
+  margin: 0px 9px;
 }
+
 .title img {
-  width: 10em;
+  width: 7em;
 }
 
 .score-board {
   background-color: #f0eeee;
   border-radius: 16px;
-  width: 14em;
-  height: 172px;
+  width: 9em;
+  height: 114px;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -72,15 +73,15 @@ body {
 .score-head {
   color: var(--Score-Text);
   font-weight: 700;
-  font-size: 1.75em;
-  margin-top: 24px;
+  font-size: 1.35em;
+  margin-top: 5px;
 }
 
 #score-num {
-  font-size: 5.4em;
+  font-size: 4.4em;
   font-weight: bolder;
   color: var(--Dark-Text);
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
