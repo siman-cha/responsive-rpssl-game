@@ -89,16 +89,15 @@ body {
 
 /* choices-section */
 #choices {
-  height: 39em;
+  height: 27em;
   width: 49em;
-  margin: 3.45em auto;
-  margin-bottom: 0px;
+  margin: 3.25em auto;
   position: relative;
 }
 
 .choice {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -112,43 +111,43 @@ body {
 }
 
 #rock {
-  border: 21px solid rgb(192, 82, 102);
+  border: 16px solid rgb(192, 82, 102);
   box-shadow: inset 0px 7px 1px 1px #ccc, 0px 7px 1px 1px rgb(220, 46, 78);
   position: absolute;
-  top: 430px;
-  right: 130px;
+  top: 293px;
+  right: 192px;
 }
 
 #paper {
-  border: 21px solid rgb(105, 121, 203);
+  border: 16px solid rgb(105, 121, 203);
   box-shadow: inset 0px 7px 1px 1px #ccc, 0px 7px 1px 1px rgb(48, 78, 224);
   position: absolute;
-  top: 180px;
-  right: 32px;
+  top: 93px;
+  right: 138px;
 }
 
 #scissors {
-  border: 21px solid rgb(255, 186, 59);
+  border: 16px solid rgb(255, 186, 59);
   box-shadow: inset 0px 7px 1px 1px #ccc, 0px 7px 1px 1px rgb(221, 144, 0);
   position: absolute;
-  left: 288px;
-  top: 0px;
+  top: -20px;
+  left: 319px;
 }
 
 #spock {
-  border: 21px solid rgb(64, 185, 206);
+  border: 16px solid rgb(64, 185, 206);
   box-shadow: inset 0px 7px 1px 1px #ccc, 0px 7px 1px 1px rgb(5, 151, 177);
   position: absolute;
-  top: 180px;
-  left: 32px;
+  top: 93px;
+  left: 138px;
 }
 
 #lizard {
-  border: 21px solid rgb(131, 79, 227);
+  border: 16px solid rgb(131, 79, 227);
   box-shadow: inset 0px 7px 1px 1px #ccc, 0px 7px 1px 1px rgb(109, 41, 234);
   position: absolute;
-  top: 430px;
-  left: 130px;
+  top: 293px;
+  left: 192px;
 }
 
 #rock:hover {
@@ -171,12 +170,14 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 39em;
+  height: 26em;
   align-items: center;
 }
 
 .pentagon img {
   background-repeat: no-repeat;
+  height: 22em;
+  width: 24em;
 }
 
 /* popup-section */
@@ -196,13 +197,13 @@ body {
 
 #rules-popup {
   position: absolute;
-  inset: 220px 0px 0px;
+  inset: 114px 0px 0px;
   margin: 0px auto;
-  width: 40em;
-  height: 42em;
+  width: 31em;
+  height: 31em;
   background-color: #fff;
   border-radius: 12px;
-  padding: 40px;
+  padding: 22px;
   display: none;
   background: #fff;
   z-index: 1000;
@@ -214,17 +215,17 @@ body {
 }
 
 .rules-head {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bolder;
   color: var(--Dark-Text);
 }
 
 #close-btn {
-  margin-top: 15px;
+  margin-top: 9px;
   cursor: pointer;
-  width: 3em;
-  height: 3em;
-  padding: 9px;
+  width: 2em;
+  height: 2em;
+  padding: 6px;
   transition: all 0.3s;
   border-radius: 50%;
 }
@@ -234,8 +235,8 @@ body {
 }
 
 .img-rules {
-  width: 500px;
-  margin: 2em;
+  width: 397px;
+  margin: 0.35em 1.85em;
 }
 
 /* pick-con */
@@ -244,8 +245,7 @@ body {
 }
 
 .msg-con {
-  margin-top: 21em;
-  margin-bottom: 14.3em;
+  margin-top: 15em;
   display: grid;
   justify-content: center;
 }
@@ -271,16 +271,16 @@ body {
 
 /* popup-button */
 #pop-btn {
-  display: flex;
-  justify-content: right;
-  margin-top: 3.45em;
+  position: fixed;
+  right: 21px;
+  top: 90%;
 }
 
 #btn-rules {
-  padding: 16px 52px;
+  padding: 13px 43px;
   border: 3px solid var(--Header-Outline);
   border-radius: 17px;
-  font-size: 1.45em;
+  font-size: 1.15em;
   letter-spacing: 0.2em;
   font-weight: 600;
   color: #fff;

@@ -29,17 +29,6 @@
         font-size: 3.4em;
     }
 
-    .btn-rules {
-        margin-top: 3em;
-        margin: auto;
-    }
-
-    #pop-btn {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
     #rules-popup {
         position: absolute;
         inset: 0px 0px 0px;
@@ -48,24 +37,25 @@
     }
 
     .rules-header {
-        margin-top: 2em;
-        width: 98%;
+        margin-top: 1em;
+        width: 100%;
     }
 
     .rules-head {
         margin: auto;
+        font-size: 2.65em;
     }
 
     .img-rules {
         margin: auto;
         display: flex;
-        margin-top: 6em;
-        width: 87%;
+        margin-top: 3em;
+        width: 59%;
     }
 
     #close-con {
         position: absolute;
-        bottom: 100px;
+        bottom: 22px;
         left: 0px;
         width: 100%;
         display: flex;
@@ -79,7 +69,7 @@
 
     #choices {
         width: 100%;
-        height: 36em;
+        height: 28em;
         margin: 0 auto;
     }
 
@@ -88,64 +78,71 @@
         width: 18%;
         padding: 18px 3px;
     }
-    #rock #paper #scissors #spock #lizard {
-        border: 15px;
-    }
 
     .pentagon img {
-        width: 56%;
-        height: 50%;
+        width: 47%;
+        height: 65%;
+        margin-top: 4em;
     }
-
+    
     .pentagon {
         width: 100%;
-        height: 39em;
+        height: 29em;
+        align-items: start;
     }
 
     #scissors {
         position: absolute;
-        top: 18%;
-        left: 40%;
+        top: 7%;
+        left: 41%;
         border: 12px solid rgb(255, 186, 59);
     }
 
     #spock {
         position: absolute;
-        top: 36%;
-        left: 16%;
+        top: 24%;
+        left: 19%;
         border: 12px solid rgb(64, 185, 206);
     }
 
     #paper {
         position: absolute;
-        top: 36%;
-        right: 16%;
+        top: 24%;
+        right: 19%;
         border: 12px solid rgb(105, 121, 203);
     }
 
     #lizard {
         position: absolute;
-        top: 70%;
-        left: 25%;
+        top: 65%;
+        left: 26%;
         border: 12px solid rgb(131, 79, 227);
     }
 
     #rock {
         position: absolute;
-        top: 70%;
-        right: 25%;
+        top: 65%;
+        right: 26%;
         border: 12px solid rgb(192, 82, 102);
     }
 
     .msg-con {
-        margin-top: 26.5em;
+        margin-top: 18.5em;
         margin-bottom: 0.3em;
     }
 
     #msg {
         font-size: 2.55em;
     }
+
+    #pop-btn {
+        width: 94%;
+        display: flex;
+        justify-content: center;
+        top: 88%;
+    }
 }
+
 
 @media ( max-width: 630px ) {
     #choices {
@@ -170,10 +167,12 @@
 
     #lizard {
         border: 8px solid rgb(131, 79, 227);
+        top: 57%;
     }
 
     #rock {
         border: 8px solid rgb(192, 82, 102);
+        top: 57%;
     }
     
     .msg-con {
@@ -188,6 +187,14 @@
         padding: 14px 32px;
         font-size: 1em;
     }
+
+    .pentagon img {
+        height: 50%;
+    }
+
+    #pop-btn {
+        width: 93%;
+    }
 }
 
 @media ( max-width: 480px ) {
@@ -201,30 +208,31 @@
 
     #lizard {
         position: absolute;
-        top: 63%;
+        top: 52%;
         left: 24%;
     }
 
     #rock {
         position: absolute;
-        top: 64%;
+        top: 52%;
         right: 24%;
     }
 
     #spock {
         position: absolute;
-        top: 34%;
-        left: 17%;
+        top: 23%;
+        left: 18%;
     }
 
     #paper {
         position: absolute;
-        top: 34%;
-        right: 17%;
+        top: 23%;
+        right: 18%;
     }
 
     #pop-btn {
         margin: 0 auto;
+        width: 90%;
     }
 
     #msg {
@@ -268,22 +276,22 @@
 
     #lizard {
         position: absolute;
-        top: 60%;
+        top: 48%;
     }
 
     #rock {
         position: absolute;
-        top: 61%;
+        top: 48%;
     }
 
     #spock {
         position: absolute;
-        top: 33%;
+        top: 23%;
     }
 
     #paper {
         position: absolute;
-        top: 33%;
+        top: 23%;
     }
 
     #btn-rules {
@@ -307,6 +315,10 @@
         margin-bottom: 3em;
         margin-top: 18em;
     }
+
+    #pop-btn {
+        width: 87%;
+    }
 }
 
 @media ( max-width: 280px ) {
@@ -324,31 +336,31 @@
 
     #lizard {
         position: absolute;
-        top: 62%;
+        top: 49%;
         border: 5px solid rgb(131, 79, 227);
     }
 
     #rock {
         position: absolute;
-        top: 63%;
+        top: 49%;
         border: 5px solid rgb(192, 82, 102);
     }
 
     #spock {
         border: 5px solid rgb(64, 185, 206);
         position: absolute;
-        top: 36%;
+        top: 26%;
     }
 
     #paper {
         position: absolute;
-        top: 37%;
+        top: 26%;
         border: 5px solid rgb(105, 121, 203);
     }
 
     #scissors {
         position: absolute;
-        top: 24%;
+        top: 11%;
         border: 5px solid rgb(255, 186, 59);
     }
 
@@ -369,5 +381,9 @@
     .msg-con {
         margin-top: 15em;
         margin-bottom: 3em;
+    }
+
+    #pop-btn {
+        width: 85%;
     }
 }
